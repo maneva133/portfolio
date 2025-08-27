@@ -386,3 +386,45 @@ body > header > div > h1 {
 .activity strong {
     color: #ff6f61;
 }
+/* Experience Section */
+.experience {
+    padding: 60px 0;
+    background-color: #f9f9f9; /* subtle background to differentiate */
+}
+
+.experience h2 {
+    text-align: center;
+    font-size: 2.5em;
+    margin-bottom: 40px;
+    color: #333;
+}
+
+.experience-item {
+    background-color: #fff;
+    border-radius: 12px;
+    padding: 25px 30px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease;
+}
+
+.experience-item:hover {
+    transform: translateY(-5px);
+}
+
+.experience-item h3 {
+    font-size: 1.8em;
+    color: #222;
+    margin-bottom: 10px;
+}
+
+.experience-item p {
+    font-size: 1em;
+    color: #555;
+    line-height: 1.6;
+    margin-bottom: 10px;
+}
+
+.experience-item strong {
+    color: #333;
+}
