@@ -386,7 +386,6 @@ body > header > div > h1 {
 .activity strong {
     color: #ff6f61;
 }
-/* Experience Section */
 .experience {
     padding: 60px 0;
     background-color: #f9f9f9; /* subtle background to differentiate */
@@ -394,9 +393,9 @@ body > header > div > h1 {
 
 .experience h2 {
     text-align: center;
-    font-size: 2.5em;
-    margin-bottom: 40px;
-    color: #333;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    color: #ff6347;
 }
 
 .experience-item {
