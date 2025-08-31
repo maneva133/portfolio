@@ -3,386 +3,563 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Maja Maneva, Portfolio</title>
+    <title>Maja Maneva - Software Developer Portfolio</title>
     <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <script src="https://unpkg.com/scrollreveal@4.0.9/dist/scrollreveal.min.js"></script>
 </head>
 <body>
-<nav>
-    <div class="container">
-        <h1 class="logo">Maja Maneva, Portfolio</h1>
-        <ul class="nav-links">
-            <li><a href="#about">About Me</a></li>
-            <li><a href="#skills">Skills</a></li>
-            <li><a href="#experience">Experience</a></li>
-            <li><a href="#projects">Projects</a></li>
-            <li><a href="#fun">Fun Section</a></li>
-        </ul>
-    </div>
-</nav>
-
-<header class="hero">
-    <div class="container">
-        <h1>Welcome to My Portfolio !</h1>
-    </div>
-</header>
-
-<section id="about" class="about">
-    <div class="container">
-        <h2>About Me</h2>
-        <div class="about-content">
-
-
-            <img src="me.jpg" alt="Profile Picture" class="profile-pic"/>
-            <p>
-                Hi, I’m Maja, a passionate and driven FCSE
-                (Faculty of Computer Science and Engineering) student with a deep love for coding,
-                problem-solving, and tackling new challenges. Technology has always fascinated me, and
-                I thrive on turning complex problems into elegant, efficient solutions. Whether it’s debugging code,
-                designing algorithms, or exploring new technologies, I’m always eager to push my limits and grow as a
-                developer.
-            </p>
-            <p>
-                Beyond technical skills, I place a strong emphasis on effective communication and collaboration.
-                I believe that the best solutions are born from teamwork, and I enjoy working with others to brainstorm
-                ideas,
-                share knowledge, and achieve common goals. My ability to explain technical concepts in simple terms and
-                adapt my
-                communication style to different audiences has helped me excel in group projects and presentations.
-            </p>
+    <!-- Animated Background -->
+    <div class="animated-background">
+        <div class="floating-shapes">
+            <div class="shape shape-1"></div>
+            <div class="shape shape-2"></div>
+            <div class="shape shape-3"></div>
+            <div class="shape shape-4"></div>
+            <div class="shape shape-5"></div>
         </div>
     </div>
-</section>
 
-
-
-<section id="skills" class="skills">
-    <div class="container">
-        <h2>Skills</h2>
-        <div class="skills-grid">
-            <div class="skill">
-                <h3>Java</h3>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <span class="logo-text">Maja Maneva</span>
+                <div class="logo-dot"></div>
             </div>
-            <div class="skill">
-                <h3>Spring Boot</h3>
-            </div>
-            <div class="skill">
-                <h3>C#</h3>
-            </div>
-
-            <div class="skill">
-                <h3>.NET</h3>
-            </div>
-
-            <div class="skill">
-                <h3>Python</h3>
-            </div>
-
-            <div class="skill">
-                <h3>Django</h3>
-            </div>
-
-
-            <div class="skill">
-                <h3>SQLite</h3>
-            </div>
-            <div class="skill">
-                <h3>PostreSQL</h3>
-            </div>
-            <div class="skill">
-                <h3>Docker</h3>
-            </div>
-            <div class="skill">
-                <h3>Kubernetes</h3>
-            </div>
-
-            <div class="skill">
-                <h3>Git</h3>
-            </div>
-
-            <div class="skill">
-                <h3>Godot</h3>
-            </div>
-
-            <div class="skill">
-                <h3>HTML</h3>
-            </div>
-            <div class="skill">
-                <h3>CSS</h3>
-            </div>
-            <div class="skill">
-                <h3>React</h3>
-            </div>
-            <div class="skill">
-                <h3>JavaScript</h3>
+            <ul class="nav-menu">
+                <li class="nav-item"><a href="#home" class="nav-link">Home</a></li>
+                <li class="nav-item"><a href="#about" class="nav-link">About</a></li>
+                <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+                <li class="nav-item"><a href="#experience" class="nav-link">Experience</a></li>
+                <li class="nav-item"><a href="#projects" class="nav-link">Projects</a></li>
+                <li class="nav-item"><a href="#fun" class="nav-link">Fun</a></li>
+                <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
             </div>
         </div>
-    </div>
-</section>
+    </nav>
 
-<section id="experience" class="experience">
-    <div class="container">
-        <h2>Experience</h2>
-        <div class="experience-item">
-            <h3>Software Development Intern at Endava</h3>
-            <p><strong>Technologies used:</strong> .NET, React, Snowflake, Git</p>
-            <p><strong>Responsibilities & Learning:</strong> Worked on a full-stack application, learning soft skills like teamwork, collaborating in a Scrum environment, managing tasks in Jira, and improving communication and problem-solving skills.</p>
-        </div>
-    </div>
-</section>
-
-
-<section id="projects" class="projects">
-    <div class="container">
-        <h2>Projects</h2>
-        <div class="projects-grid">
-
-            <div class="project">
-                <a href="https://github.com/maneva133/hotel-managment-system" target="_blank">
-
-                    <img src="hotel.jpg"/> </a>
-                <h3><b>Hotel Management</b></h3>
-                <p>
-                    <b>Description:</b>
-                    The Hotel Management System is a comprehensive and user-friendly full-stack application
-                    built to streamline hotel operations, including guest reservations, customer records,
-                    and service management. Developed using the Spring Boot framework on the backend and React on the
-                    frontend,
-                    this application centralizes all essential hotel functions into a single platform.
-                    It leverages modern technologies like PostgreSQL for data storage, Docker for containerization,
-                    and Kubernetes for orchestration and scalability. The entire system is integrated with a CI/CD
-                    pipeline using
-                    GitHub Actions to ensure smooth and automated deployments.
-                </p>
-
-                <p>
-                    <b>Impact:</b>
-                    This solution empowers hotel administrators to efficiently manage day-to-day operations,
-                    reduces manual overhead, and enhances the overall guest experience. Its modular architecture and
-                    cloud-native setup
-                    make it ideal for businesses aiming to embrace digital transformation and scale seamlessly.
-                </p>
-                </p>
-
-                <a href="https://github.com/maneva133/hotel-managment-system" target="_blank">
-                    View Project
-                </a>
-            </div>
-
-            <div class="project">
-                <a href="https://github.com/maneva133/User-Activity-Tracking-Chrome-Extension" target="_blank">
-
-                    <img src="time.jpg"/> </a>
-                <h3><b>User Tracking Chrome Extension</b></h3>
-                <p>
-                <p>
-                    <b>Description:</b>
-                    The User Tracking Time Chrome Extension is a personal productivity tool designed to help users
-                    monitor and manage
-                    their screen time effectively. Inspired by my own need to reduce excessive computer usage, this
-                    extension tracks website activity
-                    and visualizes time spent online using interactive charts. Built with JavaScript for the interface,
-                    Spring Boot for handling backend logic,
-                    and Chart.js for data visualization, it provides users with clear and actionable insights into their
-                    browsing habits.
-                    The extension encourages users to take regular breaks and build healthier digital routines.
-                </p>
-
-                <p>
-                    <b>Impact:</b>
-                    This tool promotes mindful screen usage and supports better time management by making users aware of
-                    how their time is spent online.
-                    Its clean interface and informative charts turn raw data into useful feedback, making it an ideal
-                    companion
-                    for students, professionals, or anyone looking to reduce digital distractions and improve
-                    productivity.
-                </p>
-
-                </p>
-
-                <a href="https://github.com/maneva133/User-Activity-Tracking-Chrome-Extension" target="_blank">
-                    View Project
-                </a>
-            </div>
-
-            <div class="project">
-                <a href="https://github.com/maneva133/Eternal-Elegance-.NET-MVC-Project" target="_blank">
-
-                    <img src="logo-no-background.png"/> </a>
-                <h3><b>Eternal Elegance - .NET MVC Project</b></h3>
-                <p>
-                    Description:
-                    Eternal Elegance is a robust and user-friendly MVC (Model-View-Controller) application
-                    designed to revolutionize the way beauty salons manage their operations.
-                    This project was developed to address the challenges faced by salon owners
-                    in handling appointments, client records, and other administrative tasks. By
-                    automating and centralizing these processes, Eternal Elegance ensures a seamless and efficient
-                    experience for both salon staff and clients.
-
-
-                <p>
-                    <b>Impact:</b>
-                    Eternal Elegance has the potential to significantly improve
-                    the efficiency of salon operations, reduce administrative workload, and
-                    enhance client satisfaction. Its intuitive design and robust functionality make it
-                    a valuable tool for salon owners looking to modernize their business processes.</p></p>
-
-                <a href="https://github.com/maneva133/Eternal-Elegance-.NET-MVC-Project" target="_blank">
-                    View Project
-                </a>
-            </div>
-            <div class="project">
-
-
-                <a href="https://github.com/anelalkova/Mse_Data" target="_blank">
-
-                    <img src="mse.webp"/></a>
-                <h3><b>MSE Data Scraping and Analysis</b></h3>
-                <p>
-                    Description:
-                    The MSE (Macedonian Stock Exchange) Data project is a <b>team</b> project and a
-                    comprehensive data scraping, storage, and analysis system designed to
-                    provide insights into stock market trends and investor behavior. The project
-                    involved scraping data for every stockholder from the Macedonian Stock Exchange website,
-                    storing it in a database, and building an API to connect the backend with a frontend interface.
-                    The system also incorporates various financial models and oscillators to generate signals and
-                    statistics
-                    for informed decision-making.
-                <p>
-                    <b>Impact:</b>
-                    The MSE Data project provides valuable insights into the Macedonian
-                    stock market, empowering investors with the tools they need to make
-                    informed decisions. By combining data scraping, database management, and
-                    advanced financial analysis, this project demonstrates my ability to handle complex,
-                    multi-faceted challenges and deliver practical, real-world solutions.</p>
-                </p>
-                <a href="https://github.com/anelalkova/Mse_Data" target="_blank">
-                    View Project
-                </a>
-            </div>
-
-            <div class="project">
-
-                <a href="https://github.com/maneva133/colecting_treasure_GODOT_Engine" target="_blank">
-
-                    <img src="game.png"/>
-                </a>
-                <h3>Coin Hunter</h3>
-                <p>Coin Hunter is an exciting and immersive 3D
-                    game developed using the Godot Engine. The game challenges
-                    players to collect as many coins and gold bars as possible within
-                    a limited time frame. Set in a vibrant 3D environment, this project allowed
-                    me to explore 3D game development, including modeling, physics, and level design,
-                    while creating a fun and engaging experience for players.
-
-
-                </p>
-                <a href="https://github.com/maneva133/colecting_treasure_GODOT_Engine" target="_blank">
-                    View Project
-                </a>
-            </div>
-
-            <div class="project">
-
-                <a href="https://github.com/maneva133/horoscope_generator" target="_blank">
-                    <img src="zodiacs.jpg"/>
-                </a>
-                <h3>Horoscope Generator</h3>
-                <p>The Horoscope Generator is a fun and interactive web
-                    application designed to provide users with a daily horoscope message
-                    based on their chosen zodiac sign. This project was a great opportunity
-                    to explore the concept of APIs and how they can be integrated into web applications
-                    to deliver dynamic content. The website is simple yet engaging, offering users a quick and
-                    entertaining way to check their "message of the day."
-
-                </p>
-                <a href="https://github.com/maneva133/horoscope_generator" target="_blank">
-                    View Project
-                </a>
-            </div>
-
-        </div>
-    </div>
-</section>
-<!-- Fun Section -->
-<section id="fun" class="fun">
-    <div class="container">
-        <h2>Fun Section</h2>
-        <div class="fun-content">
-
-
-            <img src="fun.jpg" class="fun-pic"/>
-
-            <div class="fun-description">
-                <h3>What Do I Do for Fun? 🎉</h3>
-                <p>
-                    When I’m not coding, you’ll find me diving into my favorite hobbies and activities. Here’s a peek
-                    into my fun side:
-                </p>
-                <div class="fun-activities">
-                    <div class="activity">
-                        <span class="icon">🎬</span>
-                        <p><strong>Harry Potter Marathons:</strong> Rewatching the movies (and debating why Gryffindor
-                            is the best house).</p>
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h1 class="hero-title">
+                        <span class="title-line"> Hello, I'm</span>
+                        <span class="title-highlight"> Maja Maneva</span>
+                        <span class="title-line"> Software Developer</span>
+                    </h1>
+                    <p class="hero-subtitle">Passionate FCSE student crafting elegant solutions through code</p>
+                    <div class="hero-buttons">
+                        <a href="#projects" class="btn btn-primary">
+                            <span>View My Work</span>
+                            <i class="fas fa-arrow-right"></i>
+                        </a>
+                        <a href="#contact" class="btn btn-secondary">
+                            <span>Get In Touch</span>
+                            <i class="fas fa-envelope"></i>
+                        </a>
                     </div>
-                    <div class="activity">
-                        <span class="icon">📺</span>
-                        <p><strong>Binge-Watching TV Shows:</strong> From thrillers to comedies, I’m always up for a
-                            good series.</p>
-                    </div>
-                    <div class="activity">
-                        <span class="icon">🎧</span>
-                        <p><strong>Listening to The Weeknd:</strong> His music is my go-to for coding sessions and chill
-                            vibes.</p>
-                    </div>
-                    <div class="activity">
-                        <span class="icon">👫</span>
-                        <p><strong>Hanging Out with Friends:</strong> Game nights, coffee runs, or just chatting—good
-                            company is everything!</p>
-                    </div>
-                    <div class="activity">
-                        <span class="icon">🐕</span>
-                        <p><strong>Walking My Dog:</strong> Nothing beats a relaxing walk with my furry best friend.</p>
+                </div>
+                <div class="hero-visual">
+
+                    <div class="floating-elements">
+                        <div class="floating-icon" data-icon="💻"></div>
+                        <div class="floating-icon" data-icon="⚡"></div>
+                        <div class="floating-icon" data-icon="🚀"></div>
                     </div>
                 </div>
             </div>
-
-
+            <div class="scroll-indicator">
+                <div class="scroll-arrow"></div>
+                <span>Scroll to explore</span>
+            </div>
         </div>
-        <div class="fun-quote">
-            <p>
-                <em>"In a world of code and creativity, I find my perfect balance with things and people that inspire
-                    me, and the
-                    thrill of solving problems
-                    to challenge me. Life is best when you mix a little logic with a lot of heart."</em>
-            </p>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">About Me</h2>
+                <div class="section-line"></div>
+            </div>
+            <div class="about-content">
+                <div class="about-image">
+                    <div class="image-wrapper">
+                        <img src="me.jpg" alt="Maja Maneva" class="profile-image">
+                        <div class="image-border"></div>
+                    </div>
+                </div>
+                <div class="about-text">
+                    <div class="about-intro">
+                        <h3>Hi, I'm Maja! 👋</h3>
+                        <p class="highlight-text">A passionate and driven FCSE student with a deep love for coding, problem-solving, and tackling new challenges.</p>
+                    </div>
+                    <div class="about-description">
+                        <p>Technology has always fascinated me, and I thrive on turning complex problems into elegant, efficient solutions. Whether it's debugging code, designing algorithms, or exploring new technologies, I'm always eager to push my limits and grow as a developer.</p>
+                        <p>Beyond technical skills, I place a strong emphasis on effective communication and collaboration. I believe that the best solutions are born from teamwork, and I enjoy working with others to brainstorm ideas, share knowledge, and achieve common goals.</p>
+                    </div>
+                    <div class="about-stats">
+                        <div class="stat-item">
+                            <span class="stat-number">6+</span>
+                            <span class="stat-label">Projects Completed</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-number">15+</span>
+                            <span class="stat-label">Technologies</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-number">100%</span>
+                            <span class="stat-label">Passion for Code</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
-    </div>
-</section>
+    </section>
 
-<section id="socials" class="socials">
-    <div class="container">
-        <h2>Let's Connect!</h2>
-        <p>Feel free to reach out to me on these platforms. I’d love to connect, collaborate, or just chat about tech!
-            🚀</p>
-        <div class="social-links">
-            <a href="https://github.com/maneva133" target="_blank" class="social-link">
-                🐙 <span>GitHub</span>
-            </a>
-            <a href="www.linkedin.com/in/maja-maneva-7b3209283" target="_blank" class="social-link">
-                🔗 <span>LinkedIn</span>
-            </a>
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Skills & Technologies</h2>
+                <div class="section-line"></div>
+            </div>
+            <div class="skills-categories">
+                <div class="skill-category">
+                    <h3 class="category-title">Backend Development</h3>
+                    <div class="skills-grid">
+                        <div class="skill-card" data-skill="Java">
+                            <div class="skill-icon">☕</div>
+                            <h4>Java</h4>
+                            <div class="skill-level">
+                                <div class="skill-bar" data-level="90"></div>
+                            </div>
+                        </div>
+                        <div class="skill-card" data-skill="Spring Boot">
+                            <div class="skill-icon">🌱</div>
+                            <h4>Spring Boot</h4>
+                            <div class="skill-level">
+                                <div class="skill-bar" data-level="85"></div>
+                            </div>
+                        </div>
+                        <div class="skill-card" data-skill="C#">
+                            <div class="skill-icon">🔷</div>
+                            <h4>C#</h4>
+                            <div class="skill-level">
+                                <div class="skill-bar" data-level="80"></div>
+                            </div>
+                        </div>
+                        <div class="skill-card" data-skill=".NET">
+                            <div class="skill-icon">🟣</div>
+                            <h4>.NET</h4>
+                            <div class="skill-level">
+                                <div class="skill-bar" data-level="85"></div>
+                            </div>
+                        </div>
+                        <div class="skill-card" data-skill="Python">
+                            <div class="skill-icon">🐍</div>
+                            <h4>Python</h4>
+                            <div class="skill-level">
+                                <div class="skill-bar" data-level="75"></div>
+                            </div>
+                        </div>
+                        <div class="skill-card" data-skill="Django">
+                            <div class="skill-icon">🎸</div>
+                            <h4>Django</h4>
+                            <div class="skill-level">
+                                <div class="skill-bar" data-level="70"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="skill-category">
+                    <h3 class="category-title">Frontend Development</h3>
+                    <div class="skills-grid">
+                        <div class="skill-card" data-skill="HTML">
+                            <div class="skill-icon">🌐</div>
+                            <h4>HTML</h4>
+                            <div class="skill-level">
+                                <div class="skill-bar" data-level="90"></div>
+                            </div>
+                        </div>
+                        <div class="skill-card" data-skill="CSS">
+                            <div class="skill-icon">🎨</div>
+                            <h4>CSS</h4>
+                            <div class="skill-level">
+                                <div class="skill-bar" data-level="85"></div>
+                            </div>
+                        </div>
+                        <div class="skill-card" data-skill="JavaScript">
+                            <div class="skill-icon">⚡</div>
+                            <h4>JavaScript</h4>
+                            <div class="skill-level">
+                                <div class="skill-bar" data-level="80"></div>
+                            </div>
+                        </div>
+                        <div class="skill-card" data-skill="React">
+                            <div class="skill-icon">⚛️</div>
+                            <h4>React</h4>
+                            <div class="skill-level">
+                                <div class="skill-bar" data-level="75"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
 
-            <a href="mailto:majamaneva51@@gmail.com" target="_blank" class="social-link">
-                ✉️ <span>Email</span>
-            </a>
+                <div class="skill-category">
+                    <h3 class="category-title">Tools & Technologies</h3>
+                    <div class="skills-grid">
+                        <div class="skill-card" data-skill="Git">
+                            <div class="skill-icon">📚</div>
+                            <h4>Git</h4>
+                            <div class="skill-level">
+                                <div class="skill-bar" data-level="85"></div>
+                            </div>
+                        </div>
+                        <div class="skill-card" data-skill="Docker">
+                            <div class="skill-icon">🐳</div>
+                            <h4>Docker</h4>
+                            <div class="skill-level">
+                                <div class="skill-bar" data-level="75"></div>
+                            </div>
+                        </div>
+                        <div class="skill-card" data-skill="Kubernetes">
+                            <div class="skill-icon">☸️</div>
+                            <h4>Kubernetes</h4>
+                            <div class="skill-level">
+                                <div class="skill-bar" data-level="70"></div>
+                            </div>
+                        </div>
+                        <div class="skill-card" data-skill="PostgreSQL">
+                            <div class="skill-icon">🐘</div>
+                            <h4>PostgreSQL</h4>
+                            <div class="skill-level">
+                                <div class="skill-bar" data-level="80"></div>
+                            </div>
+                        </div>
+                        <div class="skill-card" data-skill="SQLite">
+                            <div class="skill-icon">💾</div>
+                            <h4>SQLite</h4>
+                            <div class="skill-level">
+                                <div class="skill-bar" data-level="85"></div>
+                            </div>
+                        </div>
+                        <div class="skill-card" data-skill="Godot">
+                            <div class="skill-icon">🎮</div>
+                            <h4>Godot</h4>
+                            <div class="skill-level">
+                                <div class="skill-bar" data-level="70"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
-    </div>
-</section>
+    </section>
 
-<footer>
-    <div class="container">
-        <p>&copy; 2025 My Portfolio. All rights reserved.</p>
-    </div>
-</footer>
+    <!-- Experience Section -->
+    <section id="experience" class="experience">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Experience</h2>
+                <div class="section-line"></div>
+            </div>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <h3>Software Development Intern</h3>
+                            <span class="company">Endava</span>
+                            <span class="duration">2 months</span>
+                        </div>
+                        <div class="timeline-body">
+                            <div class="tech-stack">
+                                <span class="tech-tag">.NET</span>
+                                <span class="tech-tag">React</span>
+                                <span class="tech-tag">Snowflake</span>
+                                <span class="tech-tag">Git</span>
+                            </div>
+                            <p>Worked on a full-stack application, learning soft skills like teamwork, collaborating in a Scrum environment, managing tasks in Jira, and improving communication and problem-solving skills.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Featured Projects</h2>
+                <div class="section-line"></div>
+            </div>
+            <div class="projects-grid">
+                <div class="project-card" data-category="fullstack">
+                    <div class="project-image">
+                        <img src="hotel.jpg" alt="Hotel Management System">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="https://github.com/maneva133/hotel-managment-system" target="_blank" class="project-link">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Hotel Management System</h3>
+                        <p>A comprehensive full-stack application built with Spring Boot and React, featuring PostgreSQL, Docker, and Kubernetes integration with CI/CD pipeline.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Spring Boot</span>
+                            <span class="tech-tag">React</span>
+                            <span class="tech-tag">PostgreSQL</span>
+                            <span class="tech-tag">Docker</span>
+                            <span class="tech-tag">Kubernetes</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card" data-category="extension">
+                    <div class="project-image">
+                        <img src="time.jpg" alt="User Tracking Chrome Extension">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="https://github.com/maneva133/User-Activity-Tracking-Chrome-Extension" target="_blank" class="project-link">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>User Tracking Chrome Extension</h3>
+                        <p>A personal productivity tool that tracks website activity and visualizes time spent online using interactive charts to promote mindful screen usage.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">JavaScript</span>
+                            <span class="tech-tag">Spring Boot</span>
+                            <span class="tech-tag">Chart.js</span>
+                            <span class="tech-tag">Chrome API</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card" data-category="web">
+                    <div class="project-image">
+                        <img src="eternal.jpg" alt="Eternal Elegance">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="https://github.com/maneva133/Eternal-Elegance-.NET-MVC-Project" target="_blank" class="project-link">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Eternal Elegance - .NET MVC</h3>
+                        <p>A robust MVC application designed to revolutionize beauty salon operations by automating appointments, client records, and administrative tasks.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">.NET</span>
+                            <span class="tech-tag">MVC</span>
+                            <span class="tech-tag">C#</span>
+                            <span class="tech-tag">SQL Server</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card" data-category="data">
+                    <div class="project-image">
+                        <img src="mse.webp" alt="MSE Data Analysis">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="https://github.com/anelalkova/Mse_Data" target="_blank" class="project-link">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>MSE Data Scraping & Analysis</h3>
+                        <p>A comprehensive data scraping, storage, and analysis system for Macedonian Stock Exchange with financial models and oscillators for informed decision-making.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Python</span>
+                            <span class="tech-tag">Data Scraping</span>
+                            <span class="tech-tag">API</span>
+                            <span class="tech-tag">Financial Analysis</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card" data-category="game">
+                    <div class="project-image">
+                        <img src="game.png" alt="Coin Hunter Game">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="https://github.com/maneva133/colecting_treasure_GODOT_Engine" target="_blank" class="project-link">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Coin Hunter - 3D Game</h3>
+                        <p>An exciting 3D game developed with Godot Engine where players collect coins and gold bars in a vibrant environment with physics and level design.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Godot</span>
+                            <span class="tech-tag">3D Game Dev</span>
+                            <span class="tech-tag">GDScript</span>
+                            <span class="tech-tag">Physics</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card" data-category="web">
+                    <div class="project-image">
+                        <img src="zodiacs.jpg" alt="Horoscope Generator">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="https://github.com/maneva133/horoscope_generator" target="_blank" class="project-link">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Horoscope Generator</h3>
+                        <p>A fun and interactive web application that provides daily horoscope messages based on zodiac signs, exploring API integration and dynamic content delivery.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">HTML</span>
+                            <span class="tech-tag">CSS</span>
+                            <span class="tech-tag">JavaScript</span>
+                            <span class="tech-tag">API Integration</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Fun Section -->
+    <section id="fun" class="fun">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Fun Section</h2>
+                <div class="section-line"></div>
+            </div>
+            <div class="fun-content">
+                <div class="fun-image">
+                    <div class="image-wrapper">
+                        <img src="fun.jpg" alt="Fun Activities" class="fun-pic">
+                        <div class="image-border"></div>
+                    </div>
+                </div>
+                <div class="fun-description">
+                    <h3>What Do I Do for Fun? 🎉</h3>
+                    <p>When I'm not coding, you'll find me diving into my favorite hobbies and activities. Here's a peek into my fun side:</p>
+                    <div class="fun-activities">
+                        <div class="activity-card">
+                            <div class="activity-icon">🎬</div>
+                            <h4>Harry Potter Marathons</h4>
+                            <p>Rewatching the movies (and debating why Gryffindor is the best house).</p>
+                        </div>
+                        <div class="activity-card">
+                            <div class="activity-icon">📺</div>
+                            <h4>Binge-Watching TV Shows</h4>
+                            <p>From thrillers to comedies, I'm always up for a good series.</p>
+                        </div>
+                        <div class="activity-card">
+                            <div class="activity-icon">🎧</div>
+                            <h4>Listening to The Weeknd</h4>
+                            <p>His music is my go-to for coding sessions and chill vibes.</p>
+                        </div>
+                        <div class="activity-card">
+                            <div class="activity-icon">👫</div>
+                            <h4>Hanging Out with Friends</h4>
+                            <p>Game nights, coffee runs, or just chatting—good company is everything!</p>
+                        </div>
+                        <div class="activity-card">
+                            <div class="activity-icon">🐕</div>
+                            <h4>Walking My Dog</h4>
+                            <p>Nothing beats a relaxing walk with my furry best friend.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="fun-quote">
+                <blockquote>
+                    "In a world of code and creativity, I find my perfect balance with things and people that inspire me, and the thrill of solving problems to challenge me. Life is best when you mix a little logic with a lot of heart."
+                </blockquote>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Let's Connect!</h2>
+                <div class="section-line"></div>
+            </div>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>Ready to collaborate or just chat about tech? 🚀</h3>
+                    <p>Feel free to reach out to me on these platforms. I'd love to connect, collaborate, or just chat about technology!</p>
+                </div>
+                <div class="social-links">
+                    <a href="https://github.com/maneva133" target="_blank" class="social-card">
+                        <div class="social-icon">
+                            <i class="fab fa-github"></i>
+                        </div>
+                        <div class="social-info">
+                            <h4>GitHub</h4>
+                            <p>Check out my projects</p>
+                        </div>
+                    </a>
+                    <a href="https://www.linkedin.com/in/maja-maneva-7b3209283" target="_blank" class="social-card">
+                        <div class="social-icon">
+                            <i class="fab fa-linkedin"></i>
+                        </div>
+                        <div class="social-info">
+                            <h4>LinkedIn</h4>
+                            <p>Connect professionally</p>
+                        </div>
+                    </a>
+                    <a href="mailto:majamaneva51@gmail.com" class="social-card">
+                        <div class="social-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div class="social-info">
+                            <h4>Email</h4>
+                            <p>Send me a message</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-text">
+                    <p>&copy; 2025 Maja Maneva. Made with ❤️</p>
+                </div>
+                <div class="footer-links">
+                    <a href="#home" class="footer-link">Back to Top</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
 </body>
 </html>
